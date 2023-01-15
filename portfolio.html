@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Annie | Portfolio</title>
+  <meta name="title" content="Annie | Portfolio">
+  <meta name="description" content="This is a personal portfolio html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/require.css">
+  <link rel="stylesheet" href="./assets/css/pages/portfolio.css">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="preloader-circle"></div>
+  </div>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="./index.html" class="logo">
+        <img src="./assets/images/logo.svg" width="151" height="28" alt="Annie home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="./index.html" class="label-lg navbar-link has-after">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#" class="label-lg navbar-link has-after active">Portfolio</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./about.html" class="label-lg navbar-link has-after">About</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="https://www.linkedin.com/in/valeryhyppolite/" target="_blank" class="btn btn-primary">Contact Now</a>
+      <button class="nav-toggle-btn" aria-label="menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="section" aria-labelledby="portfolio-label">
+        <div class="container">
+
+          <h2 class="section-title headline-md text-center" id="portfolio-label">Latest Projects</h2>
+
+          <ul class="portfolio-list">
+
+            <li>
+              <div class="portfolio-card">
+
+                <div class="card-banner img-holder" style="--width: 800; --height: 540;">
+                  <img src="./assets/images/yourdev.tk1.png" width="800" height="540" loading="lazy"
+                    alt="Website Design for Marketing Agency Startup" class="img-cover">
+
+                  <a href=" http://yourdev.tk " target="_blank" class="btn-icon" aria-label="More about Website Design for Marketing Agency Startup">
+                    <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+
+                <div class="card-content">
+
+                  <span class="chip label-md"><a href="https://github.com/Valery-Hyppolite/search-developers" target="_blank">GitHub</a></span>
+
+                  <h3 class="title-md">Discover-Devs | Django Web Application</h3>
+
+                  <p class="card-text">
+                      A platform that enables developers to showcase their work and get discovered by customers around the globe. Developers can sign up to create profiles. They can add their skills and projects to their profile and launch it for everyone to see. 
+                      Developers can rate and comment on each other's work. All users have access to a messaging app right under their profile. They can message each other and customers. Users without a profile can send a message to a developer.
+                  </p>
+                  <p class="card-text">
+                    This Web-App was deployed with ElasticBeanstalk, S3, CloudFront, Route 53, VPC, and uses PostgreSQL to store data.
+                  </p>
+
+                  <a href=" http://yourdev.tk " target="_blank" class="btn btn-primary">Explore | Demo Link</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="portfolio-card">
+
+                <div class="card-banner img-holder" style="--width: 800; --height: 540;">
+                  <img src="./assets/images/efunish.png" width="800" height="540" loading="lazy"
+                    alt="Website Design for Marketing Agency Startup" class="img-cover">
+
+                  <a href="https://e-furnish.herokuapp.com/" target="_blank" class="btn-icon" aria-label="More about Website Design for Marketing Agency Startup">
+                    <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+
+                <div class="card-content">
+
+                  <span class="chip label-md"><a href="https://github.com/Valery-Hyppolite/ecommerce" target="_blank" class="">GitHub</a></span>
+
+                  <h3 class="title-md">E-Furnish | Django ecommerce Web-App</h3>
+
+                  <p class="card-text">
+                    An ecommerce application that customers may use to purchase products. Customers can explore the product page, add to cart and purchase products through the check out page. This applicationn was deployed with Heroku and uses S3 & PostgreSQL to store data  .
+                  </p>
+                  <a href="https://e-furnish.herokuapp.com/" target="_blank" class="btn btn-primary">Explore | Demo Link</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="portfolio-card">
+
+                <div class="card-banner img-holder" style="--width: 800; --height: 540;">
+                  <img src="./assets/images/inventory.png" width="800" height="540" loading="lazy"
+                    alt="Website Design for Marketing Agency Startup" class="img-cover">
+
+                  <a href="https://github.com/Valery-Hyppolite/inventory" target="_blank" class="btn-icon" aria-label="More about Website Design for Marketing Agency Startup">
+                    <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+
+                <div class="card-content">
+
+                  <span class="chip label-md"><a href="https://github.com/Valery-Hyppolite/inventory" target="_blank" class="">GitHub</a></span>
+
+                  <h3 class="title-md"> Inventory System | Django Web-App</h3>
+
+                  <p class="card-text">
+                    Inventory system that tracks all products, orders, and customers. Provide real-time updates across all products, orders, and profits.
+                    Automatically calculated profits and loss for each product as well as all products across the store. 
+                  </p>
+
+                  <a href="https://github.com/Valery-Hyppolite/inventory" target="_blank" class="btn btn-primary">Explore | GitHub Link</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="portfolio-card">
+
+                <div class="card-banner img-holder" style="--width: 800; --height: 540;">
+                  <img src="./assets/images/photon.png" width="800" height="540" loading="lazy"
+                    alt="Website Design for Marketing Agency Startup" class="img-cover">
+
+                  <a href=" https://phoetton.tk " target="_blank" class="btn-icon" aria-label="More about Website Design for Marketing Agency Startup">
+                    <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+
+                <div class="card-content">
+
+                  <span class="chip label-md"><a href="https://github.com/Valery-Hyppolite/photton" target="_blank" class="">GitHub</a></span>
+                  <h3 class="title-md">Photon | JavaScript Web-App</h3>
+
+                  <p class="card-text">
+                    A simple javascript website that fetch data from a remote database to render out photoes. This website provides user the ability to search photoes, and download them as need. 
+                    This apllication was deploeyed with AWS s3, CloudFront, and Route s3
+                  </p>
+
+                  <a href="https://phoetton.tk" target="_blank" class="btn btn-primary">Explore | Demo Link</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="portfolio-card">
+
+                <div class="card-banner img-holder" style="--width: 800; --height: 540;">
+                  <img src="./assets/images/note1.png" width="800" height="540" loading="lazy"
+                    alt="Website Design for Marketing Agency Startup" class="img-cover">
+
+                  <a href="https://github.com/Valery-Hyppolite/DJangoReactNoteApp" target="_blank" class="btn-icon" aria-label="More about Website Design for Marketing Agency Startup">
+                    <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+
+                <div class="card-content">
+
+                  <span class="chip label-md"><a href="https://github.com/Valery-Hyppolite/DJangoReactNoteApp" target="_blank" class="">GitHub</a></span>
+                  <h3 class="title-md">Nota App | React&Django Web-App</h3>
+
+                  <p class="card-text">
+                   A simple note web-app that uses Django as the backend which gives React, the frontend access to its database to create, update, and delete notes through a RESTfull API. 
+                  </p>
+
+                  <a href="https://github.com/Valery-Hyppolite/DJangoReactNoteApp" target="_blank" class="btn btn-primary">Explore | GitHub Link</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+      <BR></BR>
+
+
+      <section class="cta">
+        <div class="container">
+          <h2 class="title-lg">Upcoming</h2>
+
+          <a href="./contact.html" class="btn btn-tertiary">Look Out!</a>
+        </div>
+      </section>
+      <!-- UPCOMING PROJECTS -->
+      <div class="container">
+
+        <h2 class="section-title headline-md text-center" id="portfolio-label">Upcoming Projects</h2>
+
+        <ul class="portfolio-list">
+
+          <li>
+            <div class="portfolio-card">
+
+              <div class="card-banner img-holder" style="--width: 800; --height: 540;">
+                <img src="./assets/images/blog.png" width="800" height="540" loading="lazy"
+                  alt="Website Design for Marketing Agency Startup" class="img-cover">
+
+                <a href="#" class="btn-icon" aria-label="More about Website Design for Marketing Agency Startup">
+                  <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+
+                <span class="chip label-md">Web Design</span>
+
+                <h3 class="title-md">Blog web-app | FASK & Reddit API</h3>
+
+                <p class="card-text">
+                  A Blog app that makes api call to Reddit backend database and return most popular articles.
+                  Each articles willl also show the most recent comments. This app will also enable 
+                  users to post comments on article and send it to Reddit. Lastly, users will have the ability to save articles using their local storage. 
+                </p>
+                <!-- <a href="#" target="_blank" class="btn btn-primary">View Project</a> -->
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="portfolio-card">
+
+              <div class="card-banner img-holder" style="--width: 800; --height: 540;">
+                <img src="./assets/images/dashboard.png" width="800" height="540" loading="lazy"
+                  alt="Website Design for Marketing Agency Startup" class="img-cover">
+
+                <a href="#" class="btn-icon" aria-label="More about Website Design for Marketing Agency Startup">
+                  <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+
+                <span class="chip label-md">Web Design</span>
+
+                <h3 class="title-md">Startup | React & Django</h3>
+
+                <p class="card-text">
+                  This app make api request to Discover-Dev to fetch users' information such as their projects, comments, likes.
+                  This is a tracking system dashboard for Discover-Devs that keeps track of all comments, likes, and new users. 
+                </p>
+
+                <!-- <a href="#" target="_blank" class="btn btn-primary">View Project</a> -->
+
+              </div>
+
+            </div>
+          </li>
+        </ul>
+        </div>
+    </article>
+   <br>
+
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="social-list">
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-pinterest"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+      <p class="text-center">&copy; 2022 copyright all right reserved</p>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
